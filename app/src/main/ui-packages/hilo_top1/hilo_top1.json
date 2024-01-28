@@ -1,0 +1,201 @@
+{
+  "name": "hilo_top1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "211:222",
+    "version": "5025357778",
+    "component-id": "44b1b5146283ffc9c23e0716e2144ea7a567b2e1"
+  },
+  "default": "HiloTOP1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TituloPost"
+      },
+      {
+        "type": "text",
+        "id": "TextPost"
+      },
+      {
+        "type": "image",
+        "id": "AvatarUsuario"
+      }
+    ],
+    "modes": {
+      "HiloTOP1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "TituloPost",
+              "TextPost",
+              "AvatarUsuario"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "TituloPost",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-44.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "279.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$TituloPost",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "TextPost",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "35.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "25.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "276.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "82.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": "$TextPost",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "AvatarUsuario",
+            "border-radius": "80.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-151.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-41.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "image-content": "$AvatarUsuario",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "TituloPost": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "TextPost": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "AvatarUsuario": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "HiloTOP1",
+      "size": {
+        "width": 352.0,
+        "height": 132.0
+      },
+      "parameters": {
+        "TituloPost": "¿Es Dark Souls II el más infravalorado?",
+        "TextPost": {
+          "text": "Para mi el Dark Souls 1 es el juego que mejores sensaciones me ha \ntransmitido desde hace tiempo...\n\n",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 100,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 15.0,
+                "typeface": "Open Sans"
+              }
+            },
+            {
+              "span-start": 100,
+              "span-length": 1
+            }
+          ]
+        },
+        "AvatarUsuario": "avatar_usuario.jpeg"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

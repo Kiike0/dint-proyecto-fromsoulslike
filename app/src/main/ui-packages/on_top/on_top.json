@@ -1,0 +1,275 @@
+{
+  "name": "on_top",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "222:87",
+    "version": "5025568461",
+    "component-id": "25ae5089591b71cd14dbcc16d93208987e1014e4"
+  },
+  "default": "onTOP",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Retos"
+      },
+      {
+        "type": "text",
+        "id": "Builds"
+      },
+      {
+        "type": "text",
+        "id": "Encuentros"
+      },
+      {
+        "type": "image",
+        "id": "ImagenEncuentros"
+      },
+      {
+        "type": "image",
+        "id": "ImagenBuilds"
+      },
+      {
+        "type": "image",
+        "id": "ImagenRetos"
+      }
+    ],
+    "modes": {
+      "onTOP": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Retos",
+              "Builds",
+              "Encuentros",
+              "ImagenEncuentros",
+              "ImagenBuilds",
+              "ImagenRetos"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Retos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-137.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "45.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Retos",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Builds",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "45.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Builds",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Encuentros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "133.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "45.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Encuentros",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "ImagenEncuentros",
+            "border-radius": "85.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "133.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-13.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              }
+            },
+            "image-content": "$ImagenEncuentros",
+            "scale": "cover"
+          },
+          {
+            "id": "ImagenBuilds",
+            "border-radius": "85.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-13.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              }
+            },
+            "image-content": "$ImagenBuilds",
+            "scale": "cover"
+          },
+          {
+            "id": "ImagenRetos",
+            "border-radius": "85.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-137.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-13.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              }
+            },
+            "image-content": "$ImagenRetos",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Retos": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Builds": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Encuentros": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "ImagenEncuentros": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "ImagenBuilds": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "ImagenRetos": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "onTOP",
+      "size": {
+        "width": 359.0,
+        "height": 111.0
+      },
+      "parameters": {
+        "Retos": "Retos",
+        "Builds": "Builds",
+        "Encuentros": "Encuentros",
+        "ImagenEncuentros": "imagen_encuentros.jpeg",
+        "ImagenBuilds": "imagen_builds.jpeg",
+        "ImagenRetos": "imagen_retos.jpeg"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

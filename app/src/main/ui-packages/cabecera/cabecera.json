@@ -1,0 +1,156 @@
+{
+  "name": "cabecera",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "221:79",
+    "version": "5025651614",
+    "component-id": "dcba4eda42bde9be4f124c0ef54ac3a916885f9e"
+  },
+  "default": "Cabecera",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "FondoNegro"
+      },
+      {
+        "type": "vector",
+        "id": "Degradado"
+      },
+      {
+        "type": "text",
+        "id": "FromSoulsLike"
+      }
+    ],
+    "modes": {
+      "Cabecera": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "FondoNegro",
+              "Degradado",
+              "FromSoulsLike"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "FondoNegro",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "vector-content": "fondo_negro.svg"
+          },
+          {
+            "id": "Degradado",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "vector-content": "degradado.svg"
+          },
+          {
+            "id": "FromSoulsLike",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "17.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "216.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$FromSoulsLike",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "32.0",
+            "letter-spacing": "1.92",
+            "line-height": "1.2000000476837158",
+            "typeface": "Bebas Neue"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "FromSoulsLike": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Cabecera",
+      "size": {
+        "width": 393.0,
+        "height": 64.0
+      },
+      "parameters": {
+        "FromSoulsLike": "FromSoulsLike"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

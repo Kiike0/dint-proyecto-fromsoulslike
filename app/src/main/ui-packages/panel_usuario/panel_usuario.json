@@ -1,0 +1,380 @@
+{
+  "name": "panel_usuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "222:111",
+    "version": "5033949992",
+    "component-id": "1d194e9fbdf0129beb3003c886540836ec0c1a36"
+  },
+  "default": "PanelUsuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "FondoNegro"
+      },
+      {
+        "type": "vector",
+        "id": "Degradado"
+      },
+      {
+        "type": "group",
+        "id": "IconoUsuario"
+      },
+      {
+        "type": "group",
+        "id": "IconoBuscador"
+      },
+      {
+        "type": "group",
+        "id": "IconoPost"
+      },
+      {
+        "type": "group",
+        "id": "IconoSecciones"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "vector",
+        "id": "VectorUsuario"
+      },
+      {
+        "type": "vector",
+        "id": "VectorBusqueda"
+      },
+      {
+        "type": "vector",
+        "id": "VectorPost"
+      },
+      {
+        "type": "vector",
+        "id": "VectorSect"
+      }
+    ],
+    "modes": {
+      "PanelUsuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "FondoNegro",
+              "Degradado",
+              "IconoUsuario",
+              "IconoBuscador",
+              "IconoPost",
+              "IconoSecciones",
+              "Logo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "FondoNegro",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_negro.svg"
+          },
+          {
+            "id": "Degradado",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "degradado.svg"
+          },
+          {
+            "id": "IconoUsuario",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "151.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "tap-handler": "$Usuario",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorUsuario"
+            ]
+          },
+          {
+            "id": "IconoBuscador",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "76.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "tap-handler": "$Buscador",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorBusqueda"
+            ]
+          },
+          {
+            "id": "IconoPost",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$Post",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorPost"
+            ]
+          },
+          {
+            "id": "IconoSecciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-75.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-4.0"
+              }
+            },
+            "tap-handler": "$Secciones",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorSect"
+            ]
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-155.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "image-content": "$Logo",
+            "scale": "cover"
+          },
+          {
+            "id": "VectorUsuario",
+            "margin": {
+              "left": "3.3333740234375",
+              "top": "3.33331298828125",
+              "right": "3.3332901000976562",
+              "bottom": "3.3333511352539062"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_usuario.svg"
+          },
+          {
+            "id": "VectorBusqueda",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.35416603088378906"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.35416603088378906"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.291667938232422"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.291667938232422"
+              }
+            },
+            "vector-content": "vector_busqueda.svg"
+          },
+          {
+            "id": "VectorPost",
+            "margin": {
+              "left": "3.3333740234375",
+              "top": "3.33331298828125",
+              "right": "3.3332862854003906",
+              "bottom": "5.656454086303711"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_post.svg"
+          },
+          {
+            "id": "VectorSect",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0000209808349609375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0000209808349609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.666667938232422"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.666667938232422"
+              }
+            },
+            "vector-content": "vector_sect.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Usuario": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Buscador": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Post": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Secciones": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Logo": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "PanelUsuario",
+      "size": {
+        "width": 393.0,
+        "height": 72.0
+      },
+      "parameters": {
+        "Logo": "logo.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
