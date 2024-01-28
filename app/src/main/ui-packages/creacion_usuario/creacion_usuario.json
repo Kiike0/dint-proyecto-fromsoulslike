@@ -1,0 +1,198 @@
+{
+  "name": "creacion_usuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "211:268",
+    "version": "5045919528",
+    "component-id": "9e7d501df589b4814ac569e397b5ded7ad3a13f4"
+  },
+  "default": "CreacionUsuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "ImagenFanArt"
+      },
+      {
+        "type": "text",
+        "id": "textoPost_creacion"
+      },
+      {
+        "type": "text",
+        "id": "NombreUsuario"
+      },
+      {
+        "type": "image",
+        "id": "AvatarUsuario"
+      }
+    ],
+    "modes": {
+      "CreacionUsuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ImagenFanArt",
+              "textoPost_creacion",
+              "NombreUsuario",
+              "AvatarUsuario"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ImagenFanArt",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "33.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-31.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "270.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "270.0"
+              }
+            },
+            "image-content": "$ImagenFanArt",
+            "scale": "cover"
+          },
+          {
+            "id": "textoPost_creacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-50.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "125.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textoPost_creacion",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "NombreUsuario",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "17.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "155.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$NombreUsuario",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "AvatarUsuario",
+            "border-radius": "80.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-143.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-141.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "image-content": "$AvatarUsuarioCreaciones",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "ImagenFanArt": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "textoPost_creacion": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "NombreUsuario": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "AvatarUsuarioCreaciones": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "CreacionUsuario",
+      "size": {
+        "width": 337.0,
+        "height": 333.0
+      },
+      "parameters": {
+        "ImagenFanArt": "imagen_fan_art.png",
+        "textoPost_creacion": "Aqui va texto",
+        "NombreUsuario": "aqui va nombre de usuario",
+        "AvatarUsuarioCreaciones": "avatar_usuario.jpeg"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
