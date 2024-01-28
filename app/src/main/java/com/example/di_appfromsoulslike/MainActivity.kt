@@ -27,11 +27,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    //PantallaInicial()
+                    PantallaInicial()
                     //PantallaNoticias()
                     //PantallaForo()
                     //PantallaJuegos()
-                    PantallaCreaciones()
+                    //PantallaCreaciones()
                 }
             }
         }
