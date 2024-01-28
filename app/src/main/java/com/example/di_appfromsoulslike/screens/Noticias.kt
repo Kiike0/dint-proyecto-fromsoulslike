@@ -81,6 +81,9 @@ fun PantallaNoticias(
     }
 }
 
+/**
+ * Funcion que muestra las noticias en un lazy column, el usuario tendrá que deslizar hacia abajo para ver más noticias
+ */
 @Composable
 fun ListaNoticias(){
     LazyColumn {

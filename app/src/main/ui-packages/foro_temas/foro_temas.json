@@ -1,0 +1,893 @@
+{
+  "name": "foro_temas",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "211:255",
+    "version": "5045796320",
+    "component-id": "c979c46250d38e9e400f6f75cc3b94e6fad5fd38"
+  },
+  "default": "ForoTemas",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectanguloFGeneral"
+      },
+      {
+        "type": "group",
+        "id": "Encuentros"
+      },
+      {
+        "type": "group",
+        "id": "Builds"
+      },
+      {
+        "type": "group",
+        "id": "Guias"
+      },
+      {
+        "type": "group",
+        "id": "Videogames"
+      },
+      {
+        "type": "vector",
+        "id": "RectanguloGeneral"
+      },
+      {
+        "type": "text",
+        "id": "GeneralForo"
+      },
+      {
+        "type": "vector",
+        "id": "RectanguloEncuentros"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:groups-2-outline-rounded"
+      },
+      {
+        "type": "text",
+        "id": "EncuentrosOnline"
+      },
+      {
+        "type": "text",
+        "id": "Descripcion4"
+      },
+      {
+        "type": "vector",
+        "id": "IconoEncuentros"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:shield-with-heart"
+      },
+      {
+        "type": "text",
+        "id": "Descripcion3"
+      },
+      {
+        "type": "text",
+        "id": "BuildsForo"
+      },
+      {
+        "type": "vector",
+        "id": "IconoBuilds"
+      },
+      {
+        "type": "vector",
+        "id": "RectanguloGuias"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:book-2-outline"
+      },
+      {
+        "type": "text",
+        "id": "Descripcion2"
+      },
+      {
+        "type": "text",
+        "id": "GuiasForo"
+      },
+      {
+        "type": "vector",
+        "id": "IconoGuias"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:videogame-asset"
+      },
+      {
+        "type": "text",
+        "id": "Descripcion1"
+      },
+      {
+        "type": "text",
+        "id": "Videojuegos"
+      },
+      {
+        "type": "vector",
+        "id": "IconoVideojuegos"
+      }
+    ],
+    "modes": {
+      "ForoTemas": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectanguloFGeneral",
+              "Encuentros",
+              "Builds",
+              "Guias",
+              "Videogames",
+              "RectanguloGeneral",
+              "GeneralForo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectanguloFGeneral",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.0"
+              }
+            },
+            "vector-content": "rectangulo_fgeneral.svg"
+          },
+          {
+            "id": "Encuentros",
+            "margin": {
+              "top": "247.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "RectanguloEncuentros",
+              "material-symbols:groups-2-outline-rounded",
+              "EncuentrosOnline",
+              "Descripcion4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Builds",
+            "margin": {
+              "left": "16.0",
+              "top": "185.0",
+              "bottom": "72.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "material-symbols:shield-with-heart",
+              "Descripcion3",
+              "BuildsForo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Guias",
+            "margin": {
+              "top": "112.0",
+              "bottom": "135.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "RectanguloGuias",
+              "material-symbols:book-2-outline",
+              "Descripcion2",
+              "GuiasForo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Videogames",
+            "margin": {
+              "left": "12.0",
+              "top": "49.0",
+              "right": "17.0",
+              "bottom": "204.6096534729004"
+            },
+            "is-structured": "false",
+            "children": [
+              "material-symbols:videogame-asset",
+              "Descripcion1",
+              "Videojuegos"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectanguloGeneral",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-143.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "vector-content": "rectangulo_general.svg"
+          },
+          {
+            "id": "GeneralForo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-90.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-141.19028759002686"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.095529556274414"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$General",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectanguloEncuentros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              }
+            },
+            "vector-content": "rectangulo_encuentros.svg"
+          },
+          {
+            "id": "material-symbols:groups-2-outline-rounded",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IconoEncuentros"
+            ]
+          },
+          {
+            "id": "EncuentrosOnline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "35.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "252.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$EncuentrosOnline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Descripcion4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "27.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "235.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Descripcion4",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "IconoEncuentros",
+            "margin": {
+              "top": "12.5",
+              "bottom": "12.499990463256836"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icono_encuentros.svg"
+          },
+          {
+            "id": "material-symbols:shield-with-heart",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-147.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IconoBuilds"
+            ]
+          },
+          {
+            "id": "Descripcion3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "12.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "271.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Descripcion3",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "BuildsForo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-13.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "169.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$BuildsForo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "IconoBuilds",
+            "margin": {
+              "left": "8.333343505859375",
+              "top": "4.166656494140625",
+              "right": "8.333324432373047",
+              "bottom": "4.166675567626953"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icono_builds.svg"
+          },
+          {
+            "id": "RectanguloGuias",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              }
+            },
+            "vector-content": "rectangulo_guias.svg"
+          },
+          {
+            "id": "material-symbols:book-2-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IconoGuias"
+            ]
+          },
+          {
+            "id": "Descripcion2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "35.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "13.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "251.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Descripcion2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "GuiasForo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-6.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$GuiasForo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "IconoGuias",
+            "margin": {
+              "left": "8.333343505859375",
+              "top": "4.1666717529296875",
+              "right": "8.333324432373047",
+              "bottom": "4.166660308837891"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icono_guias.svg"
+          },
+          {
+            "id": "material-symbols:videogame-asset",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-5.695173263549805"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IconoVideojuegos"
+            ]
+          },
+          {
+            "id": "Descripcion1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "33.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "14.385467529296875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "242.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.61941146850586"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Descripcion1",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Videojuegos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "39.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-16.233956336975098"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "253.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.095529556274414"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Videojuegos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "IconoVideojuegos",
+            "margin": {
+              "left": "4.166656494140625",
+              "top": "12.5",
+              "right": "4.1666717529296875",
+              "bottom": "12.499996185302734"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icono_videojuegos.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "General": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "EncuentrosOnline": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Descripcion4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Descripcion3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "BuildsForo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Descripcion2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "GuiasForo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Descripcion1": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Videojuegos": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "ForoTemas",
+      "size": {
+        "width": 360.0,
+        "height": 315.0
+      },
+      "parameters": {
+        "General": "General",
+        "EncuentrosOnline": "Encuentros Online",
+        "Descripcion4": "Quedadas para que puedas jugar con quien quieras",
+        "Descripcion3": "Las mejores builds para que puedas plantar cara a los bosses más difíciles",
+        "BuildsForo": "Builds",
+        "Descripcion2": "Guías de tus juegos favoritos",
+        "GuiasForo": "Guias",
+        "Descripcion1": "Temas sobre juegos de temática souls",
+        "Videojuegos": "Videojuegos soulslike"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

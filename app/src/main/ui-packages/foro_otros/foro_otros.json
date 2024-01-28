@@ -1,0 +1,679 @@
+{
+  "name": "foro_otros",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "248:98",
+    "version": "5045821253",
+    "component-id": "de05d2258fee6bd8609abb3d84c68a892137d070"
+  },
+  "default": "ForoOtros",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectanguloFOtros"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleCreaciones"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:design-services-outline"
+      },
+      {
+        "type": "text",
+        "id": "Creaciones"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:topic-outline"
+      },
+      {
+        "type": "text",
+        "id": "Offtopic"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleMMO"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:connect-without-contact"
+      },
+      {
+        "type": "text",
+        "id": "MMO"
+      },
+      {
+        "type": "text",
+        "id": "DescripcionOtros"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:gamepad"
+      },
+      {
+        "type": "text",
+        "id": "OtrosVideojuegos"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleOtros"
+      },
+      {
+        "type": "text",
+        "id": "OtrosMenesteres"
+      },
+      {
+        "type": "vector",
+        "id": "VectorCreaciones"
+      },
+      {
+        "type": "vector",
+        "id": "VectorOfftopic"
+      },
+      {
+        "type": "vector",
+        "id": "VectorMMO"
+      },
+      {
+        "type": "vector",
+        "id": "VectorOtros"
+      }
+    ],
+    "modes": {
+      "ForoOtros": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectanguloFOtros",
+              "RectangleCreaciones",
+              "material-symbols:design-services-outline",
+              "Creaciones",
+              "material-symbols:topic-outline",
+              "Offtopic",
+              "RectangleMMO",
+              "material-symbols:connect-without-contact",
+              "MMO",
+              "DescripcionOtros",
+              "material-symbols:gamepad",
+              "OtrosVideojuegos",
+              "RectangleOtros",
+              "OtrosMenesteres"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectanguloFOtros",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "250.0"
+              }
+            },
+            "vector-content": "rectangulo_fotros.svg"
+          },
+          {
+            "id": "RectangleCreaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "116.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "359.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "63.0"
+              }
+            },
+            "vector-content": "rectangle_creaciones.svg"
+          },
+          {
+            "id": "material-symbols:design-services-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "124.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorCreaciones"
+            ]
+          },
+          {
+            "id": "Creaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "116.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "208.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Creaciones",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "material-symbols:topic-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "60.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorOfftopic"
+            ]
+          },
+          {
+            "id": "Offtopic",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "22.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "43.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "225.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Offtopic",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectangleMMO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "63.0"
+              }
+            },
+            "vector-content": "rectangle_mmo.svg"
+          },
+          {
+            "id": "material-symbols:connect-without-contact",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorMMO"
+            ]
+          },
+          {
+            "id": "MMO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-35.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "106.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$MMO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "DescripcionOtros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-58.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "253.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$DescripcionOtros",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "material-symbols:gamepad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-143.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-68.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorOtros"
+            ]
+          },
+          {
+            "id": "OtrosVideojuegos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "34.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-86.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "248.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$OtrosVideojuegos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectangleOtros",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-134.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "vector-content": "rectangle_otros.svg"
+          },
+          {
+            "id": "OtrosMenesteres",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-16.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-136.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "303.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$OtrosMenesteres",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "VectorCreaciones",
+            "margin": {
+              "left": "4.1666259765625",
+              "top": "4.166664123535156",
+              "right": "4.166706085205078",
+              "bottom": "4.166667938232422"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_creaciones.svg"
+          },
+          {
+            "id": "VectorOfftopic",
+            "margin": {
+              "left": "4.1666259765625",
+              "top": "8.333332061767578",
+              "right": "4.1667022705078125",
+              "bottom": "8.333332061767578"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_offtopic.svg"
+          },
+          {
+            "id": "VectorMMO",
+            "margin": {
+              "left": "4.1666259765625",
+              "top": "4.166667938232422",
+              "right": "4.1667022705078125",
+              "bottom": "4.166664123535156"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_mmo.svg"
+          },
+          {
+            "id": "VectorOtros",
+            "margin": {
+              "left": "4.1666259765625",
+              "top": "4.166664123535156",
+              "right": "4.166706085205078",
+              "bottom": "4.166667938232422"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_otros.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Creaciones": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Offtopic": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "MMO": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "DescripcionOtros": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "OtrosVideojuegos": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "OtrosMenesteres": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "ForoOtros",
+      "size": {
+        "width": 360.0,
+        "height": 298.0
+      },
+      "parameters": {
+        "Creaciones": "Creaciones",
+        "Offtopic": "Off-Topic y humor",
+        "MMO": "MMO",
+        "DescripcionOtros": "Temas sobre cualquier videojuego de todas las índoles",
+        "OtrosVideojuegos": "Otros videojuegos",
+        "OtrosMenesteres": "Otros menesteres"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
