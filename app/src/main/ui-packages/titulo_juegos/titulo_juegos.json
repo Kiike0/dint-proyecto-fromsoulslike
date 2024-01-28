@@ -1,0 +1,129 @@
+{
+  "name": "titulo_juegos",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "252:110",
+    "version": "5045905891",
+    "component-id": "87af67a523249867cbfd6dff785b2e494c3cd891"
+  },
+  "default": "TituloJuegos",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleTituloJgs"
+      },
+      {
+        "type": "text",
+        "id": "Juegos"
+      }
+    ],
+    "modes": {
+      "TituloJuegos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleTituloJgs",
+              "Juegos"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleTituloJgs",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.17873859405517578"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "vector-content": "rectangle_titulo_jgs.svg"
+          },
+          {
+            "id": "Juegos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-80.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.6309890747070312"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.095529556274414"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$JuegosTit",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "JuegosTit": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "TituloJuegos",
+      "size": {
+        "width": 360.0,
+        "height": 29.35747718811035
+      },
+      "parameters": {
+        "JuegosTit": "Juegos"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

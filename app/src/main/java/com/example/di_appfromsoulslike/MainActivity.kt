@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.di_appfromsoulslike.screens.PantallaForo
 import com.example.di_appfromsoulslike.screens.PantallaInicial
+import com.example.di_appfromsoulslike.screens.PantallaJuegos
 import com.example.di_appfromsoulslike.screens.PantallaNoticias
 import com.example.di_appfromsoulslike.ui.theme.DI_AppFromSoulslikeTheme
 
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                     //PantallaInicial()
                     //PantallaNoticias()
-                    PantallaForo()
+                    //PantallaForo()
+                    PantallaJuegos()
                 }
             }
         }

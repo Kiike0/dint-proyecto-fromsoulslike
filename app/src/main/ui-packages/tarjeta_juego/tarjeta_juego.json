@@ -1,0 +1,243 @@
+{
+  "name": "tarjeta_juego",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "211:262",
+    "version": "5045892933",
+    "component-id": "e1673a936cbae6944a8c398521e5bf668c9629a8"
+  },
+  "default": "TarjetaJuego",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleJuego"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleFondoJ"
+      },
+      {
+        "type": "text",
+        "id": "TituloJuego"
+      },
+      {
+        "type": "image",
+        "id": "ImagenJuego"
+      },
+      {
+        "type": "text",
+        "id": "Informacion"
+      }
+    ],
+    "modes": {
+      "TarjetaJuego": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleJuego",
+              "RectangleFondoJ",
+              "TituloJuego",
+              "ImagenJuego",
+              "Informacion"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleJuego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "111.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "135.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "vector-content": "rectangle_juego.svg"
+          },
+          {
+            "id": "RectangleFondoJ",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-68.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "224.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              }
+            },
+            "vector-content": "rectangle_fondo_j.svg"
+          },
+          {
+            "id": "TituloJuego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "111.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "118.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$TituloJuego",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "ImagenJuego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "112.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-9.090909957885742"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "136.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.818180084228516"
+              }
+            },
+            "stroke-alignment": "outside",
+            "image-content": "$ImagenJuego",
+            "scale": "cover"
+          },
+          {
+            "id": "Informacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-60.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "196.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Informacion",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "TituloJuego": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "ImagenJuego": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Informacion": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "TarjetaJuego",
+      "size": {
+        "width": 360.0,
+        "height": 80.0
+      },
+      "parameters": {
+        "TituloJuego": "Nombre del juego",
+        "ImagenJuego": "imagen_juego.jpeg",
+        "Informacion": "Información del juego del que se habla en el foro."
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
