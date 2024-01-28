@@ -13,20 +13,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import com.example.di_appfromsoulslike.R
 import com.example.di_appfromsoulslike.components.CabeceraVfinal
 import com.example.di_appfromsoulslike.components.CreacionUsuariovFinalCr
-import com.example.di_appfromsoulslike.components.HiloTOPvFinal
 import com.example.di_appfromsoulslike.components.PanelUsuarioVFinal
-import com.example.di_appfromsoulslike.components.TarjetaJuegovFinalJuegos
-import com.example.di_appfromsoulslike.creacionusuario.CreacionUsuario
-import com.example.di_appfromsoulslike.ontop.OnTop
 import com.google.relay.compose.BoxScopeInstanceImpl.align
 
 /**
- * Función composable que representa la pantalla principal para seleccionar el tipo de juego.
+ * Función composable que representa la pantalla  para seleccionar el tipo de juego.
  *
  * @param navController El controlador de navegación utilizado para navegar en las diferentes pantallas.
  * @param viewModel El ViewModel responsable de gestionar la lógica del juego de Blackjack.
