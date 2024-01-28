@@ -33,7 +33,6 @@ import com.google.relay.compose.BoxScopeInstanceImpl.align
  *     viewModel: PantallaInicioViewModel
  *
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PantallaInicial(
 
@@ -85,7 +84,7 @@ fun PantallaInicial(
         )
         Box(
             modifier = Modifier
-                .fillMaxSize() // Ocupa todo el espacio disponible
+                .fillMaxSize()
         ) {
             Box(
                 modifier = Modifier
@@ -114,150 +113,8 @@ fun PantallaInicial(
         }
     }
 
-
-
 }
 
-
-/*
-    Si quisieramos utilizad Scaffold
-    Scaffold(
-        topBar = {
-            CabeceraVfinal(
-                modifier = Modifier.align(Alignment.TopCenter),
-                fromSoulsLike = "fromSoulslike"
-            )
-        },
-        bottomBar = {
-
-
-                PanelUsuarioVFinal(
-                    logo = painterResource(id = R.drawable.logomejorado),
-                    usuario = {
-                        // Lógica cuando se hace clic en el área de usuario
-                    },
-                    buscador = {
-                        // Lógica cuando se hace clic en el área de buscador
-                    },
-                    post = {
-                        // Lógica cuando se hace clic en el área de posts
-                    },
-                    secciones = {
-                        // Lógica cuando se hace clic en el área de secciones
-                    }
-                )
-
-
-
-
-
-
-        },
-        floatingActionButton = { }
-    ) { innerPadding ->
-        Column(
-            modifier = Modifier
-                .padding(innerPadding),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-        ) {
-            OnTop(
-                Modifier.size(415.dp, 200.dp),
-                "Retos",
-                "Builds",
-                "Encuentros",
-                painterResource(R.drawable.on_top_imagen_retos),
-                painterResource(R.drawable.on_top_imagen_builds),
-                painterResource(R.drawable.on_top_imagen_encuentros)
-            )
-        }
-    }
-
- */
-
-/*
-Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Black)
-    ) {
-        CabeceraVfinal(
-            modifier = Modifier.align(Alignment.TopCenter),
-            fromSoulsLike = "fromSoulslike"
-        )
-
-            OnTop(
-                Modifier.size(415.dp, 200.dp),
-                "Retos",
-                "Builds",
-                "Encuentros",
-                painterResource(R.drawable.on_top_imagen_retos),
-                painterResource(R.drawable.on_top_imagen_builds),
-                painterResource(R.drawable.on_top_imagen_encuentros)
-            )
-
-            HiloTOPvFinal(
-                Modifier.size(415.dp, 200.dp),
-                "¿Es Dark Souls II el más infravalorado?",
-                AnnotatedString(
-                    "Para mi el Dark Souls 1 es el juego que mejores sensaciones me ha " +
-                            "transmitido desde hace tiempo...\n"
-                ),
-                painterResource(R.drawable.hilo_top1_avatar_usuario)
-            )
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(200.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            HiloTOPvFinal(
-                Modifier,
-                "Reimaginan los jefes de Lies of P como si fuese Cuphead",
-                AnnotatedString(
-                    "Cuphead es uno de los juegos indies más exitosos" +
-                            "de los últimos años y hace unos meses llegó ... \n"
-                ),
-                painterResource(R.drawable.avatarlies)
-            )
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(100.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            HiloTOPvFinal(
-                Modifier,
-                "Nuevo Record Speedrun All Bosses en Dark Souls 3",
-                AnnotatedString(
-                    "Nemz38 ha logrado superar Dark Souls 3 en una hora y " +
-                            "media en la categoria All Bosses incluyendo ... ... \n"
-                ),
-                painterResource(R.drawable.avtsekiro)
-            )
-        }
-
-        PanelUsuarioVFinal(
-            modifier = Modifier.align(Alignment.BottomCenter), // Modificador personalizado opcional
-            logo = painterResource(id = R.drawable.logomejorado),
-            usuario = {
-                // Lógica cuando se hace clic en el área de usuario
-            },
-            buscador = {
-                // Lógica cuando se hace clic en el área de buscador
-            },
-            post = {
-                // Lógica cuando se hace clic en el área de posts
-            },
-            secciones = {
-                // Lógica cuando se hace clic en el área de secciones
-            }
-        )
-
-
-    }
- */
 
 /*
 Box(

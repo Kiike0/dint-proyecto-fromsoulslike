@@ -1,0 +1,230 @@
+{
+  "name": "noticia_top",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "211:228",
+    "version": "5045655745",
+    "component-id": "8f35c7b2b7355e07ab1369126a24416ad3183194"
+  },
+  "default": "NoticiaTOP",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "ImagenNoticia"
+      },
+      {
+        "type": "vector",
+        "id": "FondoTexto"
+      },
+      {
+        "type": "text",
+        "id": "Contenido"
+      },
+      {
+        "type": "text",
+        "id": "Titulo"
+      }
+    ],
+    "modes": {
+      "NoticiaTOP": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ImagenNoticia",
+              "FondoTexto",
+              "Contenido",
+              "Titulo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ImagenNoticia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "124.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "127.0"
+              }
+            },
+            "image-content": "$ImagenNoticia",
+            "scale": "cover"
+          },
+          {
+            "id": "FondoTexto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-64.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "248.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "127.0"
+              }
+            },
+            "vector-content": "fondo_texto.svg"
+          },
+          {
+            "id": "Contenido",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-66.59395599365234"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "21.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "230.51771545410156"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": "$Contenido",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.219000021616618",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Titulo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-64.54491424560547"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-37.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "234.6157989501953"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Titulo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "ImagenNoticia": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Contenido": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "Titulo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "NoticiaTOP",
+      "size": {
+        "width": 376.0,
+        "height": 127.0
+      },
+      "parameters": {
+        "ImagenNoticia": "imagen_noticia.jpeg",
+        "Contenido": {
+          "text": "Tras cumplir el primer mes en las tiendas, se ha hecho pública la buena noticia de que ha alcanzado nada más y nada menos que un millón de unidades vendidas en todas las plataformas para las que ha salido.\n\n",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 206,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Open Sans"
+              }
+            },
+            {
+              "span-start": 206,
+              "span-length": 1
+            }
+          ]
+        },
+        "Titulo": "Lies of P supera el éxito previsto y llegan al millón de copias vendidas"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
