@@ -1,0 +1,767 @@
+{
+  "name": "plataformas",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "260:102",
+    "version": "5049658718",
+    "component-id": "e6d17511ba724229dae1333bf6921e2e16c83124"
+  },
+  "default": "Plataformas",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleFPltf"
+      },
+      {
+        "type": "vector",
+        "id": "RectanglePC"
+      },
+      {
+        "type": "text",
+        "id": "PC"
+      },
+      {
+        "type": "text",
+        "id": "DescripcionPC"
+      },
+      {
+        "type": "group",
+        "id": "fa6-solid:computer"
+      },
+      {
+        "type": "image",
+        "id": "Nint_logo"
+      },
+      {
+        "type": "text",
+        "id": "DescriptionN"
+      },
+      {
+        "type": "text",
+        "id": "Nintendo"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleXbox"
+      },
+      {
+        "type": "image",
+        "id": "logoxbox"
+      },
+      {
+        "type": "text",
+        "id": "Descripcionxbox"
+      },
+      {
+        "type": "text",
+        "id": "Xbox"
+      },
+      {
+        "type": "image",
+        "id": "LogoPs"
+      },
+      {
+        "type": "text",
+        "id": "DescripcionPs"
+      },
+      {
+        "type": "text",
+        "id": "Playstation"
+      },
+      {
+        "type": "vector",
+        "id": "RectanglePltf"
+      },
+      {
+        "type": "text",
+        "id": "PlataformasTitle"
+      },
+      {
+        "type": "vector",
+        "id": "VectorPC"
+      }
+    ],
+    "modes": {
+      "Plataformas": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleFPltf",
+              "RectanglePC",
+              "PC",
+              "DescripcionPC",
+              "fa6-solid:computer",
+              "Nint_logo",
+              "DescriptionN",
+              "Nintendo",
+              "RectangleXbox",
+              "logoxbox",
+              "Descripcionxbox",
+              "Xbox",
+              "LogoPs",
+              "DescripcionPs",
+              "Playstation",
+              "RectanglePltf",
+              "PlataformasTitle"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleFPltf",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.0"
+              }
+            },
+            "vector-content": "rectangle_fpltf.svg"
+          },
+          {
+            "id": "RectanglePC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "123.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              }
+            },
+            "vector-content": "rectangle_pc.svg"
+          },
+          {
+            "id": "PC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "35.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "103.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "252.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$PC",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "DescripcionPC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "39.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "133.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "259.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$DescripcionPC",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "fa6-solid:computer",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-132.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "121.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorPC"
+            ]
+          },
+          {
+            "id": "Nint_logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-132.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "54.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              }
+            },
+            "image-content": "$Nint_logo",
+            "scale": "cover"
+          },
+          {
+            "id": "DescriptionN",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "44.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "67.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "271.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$DescriptionN",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Nintendo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "39.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "169.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Nintendo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectangleXbox",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-11.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              }
+            },
+            "vector-content": "rectangle_xbox.svg"
+          },
+          {
+            "id": "logoxbox",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-138.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-11.473783493041992"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.052433013916016"
+              }
+            },
+            "image-content": "$logoxbox",
+            "scale": "cover"
+          },
+          {
+            "id": "Descripcionxbox",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "35.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "251.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Descripcionxbox",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Xbox",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-6.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Xbox",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "LogoPs",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-84.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "$LogoPs",
+            "scale": "cover"
+          },
+          {
+            "id": "DescripcionPs",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "31.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-67.41935920715332"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "242.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.61941146850586"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$DescripcionPs",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Playstation",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-94.0387830734253"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "253.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.095529556274414"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Playstation",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectanglePltf",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-143.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "vector-content": "rectangle_pltf.svg"
+          },
+          {
+            "id": "PlataformasTitle",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-90.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-141.19028759002686"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.095529556274414"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$PlataformasTitle",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "VectorPC",
+            "margin": {
+              "top": "3.125",
+              "bottom": "3.125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_pc.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "PC": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "DescripcionPC": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Nint_logo": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "DescriptionN": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Nintendo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "logoxbox": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Descripcionxbox": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Xbox": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "LogoPs": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "DescripcionPs": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Playstation": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "PlataformasTitle": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Plataformas",
+      "size": {
+        "width": 360.0,
+        "height": 315.0
+      },
+      "parameters": {
+        "PC": "PC",
+        "DescripcionPC": "Puntos de encuentro para los seguidores de PC, Steam, Epic Games...",
+        "Nint_logo": "nint_logo.png",
+        "DescriptionN": "Puntos de encuentro en esta plataforma, id de usuario, Smash Bross...",
+        "Nintendo": "Nintendo",
+        "logoxbox": "logoxbox.png",
+        "Descripcionxbox": "Puntos de encuentro en esta plataforma, id de usuario, GamePass...",
+        "Xbox": "Xbox",
+        "LogoPs": "logo_ps.png",
+        "DescripcionPs": "Puntos de encuentro online en esta plataforma, id de usuario, PSN...",
+        "Playstation": "Playstation",
+        "PlataformasTitle": "Plataformas"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

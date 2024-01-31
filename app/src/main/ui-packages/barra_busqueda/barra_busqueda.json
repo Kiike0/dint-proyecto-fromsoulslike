@@ -1,0 +1,187 @@
+{
+  "name": "barra_busqueda",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "261:108",
+    "version": "5049733471",
+    "component-id": "d57558d19b75a8ed7347f51e5b9958ec66351cd4"
+  },
+  "default": "BarraBusqueda",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleBusqueda"
+      },
+      {
+        "type": "text",
+        "id": "Busqueda"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:search-rounded"
+      },
+      {
+        "type": "vector",
+        "id": "VectorLupa"
+      }
+    ],
+    "modes": {
+      "BarraBusqueda": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleBusqueda",
+              "Busqueda",
+              "material-symbols:search-rounded"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleBusqueda",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "vector-content": "rectangle_busqueda.svg"
+          },
+          {
+            "id": "Busqueda",
+            "opacity": "0.23000000417232513",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-21.39124298095703"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.95652770996094"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Busqueda",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.96",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "material-symbols:search-rounded",
+            "opacity": "0.699999988079071",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-152.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorLupa"
+            ]
+          },
+          {
+            "id": "VectorLupa",
+            "margin": {
+              "left": "3.75",
+              "top": "3.75",
+              "right": "4.281248092651367",
+              "bottom": "4.28125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_lupa.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Busqueda": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "BarraBusqueda",
+      "size": {
+        "width": 360.0,
+        "height": 33.0
+      },
+      "parameters": {
+        "Busqueda": "Buscar en el foro"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

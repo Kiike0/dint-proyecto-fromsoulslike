@@ -1,0 +1,65 @@
+{
+  "name": "fondo_app",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "276:132",
+    "version": "5068275709",
+    "component-id": "edb4d6b61657e328d9f6fe9f7ca01a33c01847ed"
+  },
+  "default": "FondoApp",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "ColorFondo"
+      }
+    ],
+    "modes": {
+      "FondoApp": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ColorFondo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ColorFondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "color_fondo.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "FondoApp",
+      "size": {
+        "width": 312.0,
+        "height": 323.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

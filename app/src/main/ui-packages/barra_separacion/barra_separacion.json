@@ -1,0 +1,75 @@
+{
+  "name": "barra_separacion",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "274:129",
+    "version": "5068092428",
+    "component-id": "e579ddb5eb710c3ce685ceaeef703b5c3fa4eeb8"
+  },
+  "default": "BarraSeparacion",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Separacion"
+      }
+    ],
+    "modes": {
+      "BarraSeparacion": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Separacion"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Separacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "separacion.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BarraSeparacion",
+      "size": {
+        "width": 393.0,
+        "height": 1.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

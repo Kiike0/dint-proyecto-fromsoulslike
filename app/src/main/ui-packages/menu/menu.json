@@ -1,0 +1,436 @@
+{
+  "name": "menu",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "262:174",
+    "version": "5049893547",
+    "component-id": "92ee13ca2e30f2da9bdec7dd9087c2d713409a1d"
+  },
+  "default": "Menu",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleFMenu"
+      },
+      {
+        "type": "text",
+        "id": "Contáctanos"
+      },
+      {
+        "type": "text",
+        "id": "Noticias"
+      },
+      {
+        "type": "text",
+        "id": "Foro"
+      },
+      {
+        "type": "text",
+        "id": "Secciones"
+      },
+      {
+        "type": "text",
+        "id": "Encuentros"
+      },
+      {
+        "type": "text",
+        "id": "Juegos"
+      },
+      {
+        "type": "text",
+        "id": "Creaciones"
+      },
+      {
+        "type": "vector",
+        "id": "LineSeparacion"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:close-rounded"
+      },
+      {
+        "type": "vector",
+        "id": "VectorClose"
+      }
+    ],
+    "modes": {
+      "Menu": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleFMenu",
+              "Contáctanos",
+              "Noticias",
+              "Foro",
+              "Secciones",
+              "Encuentros",
+              "Juegos",
+              "Creaciones",
+              "LineSeparacion",
+              "material-symbols:close-rounded"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleFMenu",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "240.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "401.0"
+              }
+            },
+            "vector-content": "rectangle_fmenu.svg"
+          },
+          {
+            "id": "Contáctanos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-31.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "154.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Contactanos",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Noticias",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-47.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-101.5"
+              }
+            },
+            "tap-handler": "$onNoticias",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Noticias",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Foro",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-62.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-55.5"
+              }
+            },
+            "tap-handler": "$onForo",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Foro",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Secciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-155.5"
+              }
+            },
+            "tap-handler": "$onSecciones",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Secciones",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Encuentros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-36.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-9.5"
+              }
+            },
+            "tap-handler": "$onEncuentros",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Encuentros",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Juegos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-56.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "36.5"
+              }
+            },
+            "tap-handler": "$onJuegos",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Juegos",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Creaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-35.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "82.5"
+              }
+            },
+            "tap-handler": "$onCreaciones",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Creaciones",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "letter-spacing": "0.8999999999999999",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "LineSeparacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "117.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "240.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_separacion.svg"
+          },
+          {
+            "id": "material-symbols:close-rounded",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-157.5"
+              }
+            },
+            "tap-handler": "$onClose",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorClose"
+            ]
+          },
+          {
+            "id": "VectorClose",
+            "margin": {
+              "left": "9.04168701171875",
+              "top": "9.0416259765625",
+              "right": "9.041645050048828",
+              "bottom": "9.041706085205078"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_close.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Contactanos": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "onNoticias": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onForo": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onSecciones": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onEncuentros": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onJuegos": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onCreaciones": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onClose": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Menu",
+      "size": {
+        "width": 240.0,
+        "height": 401.0
+      },
+      "parameters": {
+        "Contactanos": "Contáctanos"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

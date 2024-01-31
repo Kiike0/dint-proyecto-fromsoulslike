@@ -1,0 +1,631 @@
+{
+  "name": "menu_sesion",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "uwwooXR94a0mGUQQhd08DQ",
+    "node": "264:3",
+    "version": "5050368589",
+    "component-id": "d36b7149c803154495360aab6c58628b6cdfbbbc"
+  },
+  "default": "MenuSesion",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleFSesion"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "FromSoulsLike"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleEmail"
+      },
+      {
+        "type": "text",
+        "id": "Email"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleCont"
+      },
+      {
+        "type": "text",
+        "id": "Contrasenia"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleAcceso"
+      },
+      {
+        "type": "text",
+        "id": "Acceder"
+      },
+      {
+        "type": "text",
+        "id": "Terminos"
+      },
+      {
+        "type": "text",
+        "id": "OlvidoCont"
+      },
+      {
+        "type": "text",
+        "id": "CrearCuenta"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:close-rounded"
+      },
+      {
+        "type": "text",
+        "id": "AccederTitle"
+      },
+      {
+        "type": "vector",
+        "id": "VectorSesion"
+      }
+    ],
+    "modes": {
+      "MenuSesion": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "RectangleFSesion",
+              "Logo",
+              "FromSoulsLike",
+              "RectangleEmail",
+              "Email",
+              "RectangleCont",
+              "Contrasenia",
+              "RectangleAcceso",
+              "Acceder",
+              "Terminos",
+              "OlvidoCont",
+              "CrearCuenta",
+              "material-symbols:close-rounded",
+              "AccederTitle"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "RectangleFSesion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "852.0"
+              }
+            },
+            "vector-content": "rectangle_fsesion.svg"
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-121.16068458557129"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-150.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.24924850463867"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "image-content": "$Logo",
+            "scale": "cover"
+          },
+          {
+            "id": "FromSoulsLike",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "29.542015075683594"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-150.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.7567596435547"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$FromSoulsLike",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "32.0",
+            "letter-spacing": "1.92",
+            "line-height": "1.2000000476837158",
+            "typeface": "Bebas Neue"
+          },
+          {
+            "id": "RectangleEmail",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-77.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "328.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "rectangle_email.svg"
+          },
+          {
+            "id": "Email",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "59.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Email",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectangleCont",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "328.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "rectangle_cont.svg"
+          },
+          {
+            "id": "Contrasenia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-100.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-15.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Contrasenia",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "RectangleAcceso",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "97.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "328.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "vector-content": "rectangle_acceso.svg"
+          },
+          {
+            "id": "Acceder",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.962533950805664"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "97.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.24924850463867"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Acceder",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Terminos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.9775543212890625"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "51.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "293.5255432128906"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Terminos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "OlvidoCont",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-64.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "137.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "189.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "17.88235294117647",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "text-content": "$OlvidoCont",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "CrearCuenta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "99.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "137.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "94.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "17.88235294117647",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "text-content": "$CrearCuenta",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "0.72",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "material-symbols:close-rounded",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-144.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-383.0"
+              }
+            },
+            "tap-handler": "$onClose",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "VectorSesion"
+            ]
+          },
+          {
+            "id": "AccederTitle",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-36.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-383.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$AccederTittle",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "24.0",
+            "letter-spacing": "1.44",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "VectorSesion",
+            "margin": {
+              "left": "9.041656494140625",
+              "top": "9.04168701171875",
+              "right": "9.041675567626953",
+              "bottom": "9.041645050048828"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_sesion.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Logo": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "FromSoulsLike": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Email": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Contrasenia": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Acceder": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Terminos": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "OlvidoCont": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "CrearCuenta": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "onClose": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "AccederTittle": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MenuSesion",
+      "size": {
+        "width": 393.0,
+        "height": 852.0
+      },
+      "parameters": {
+        "Logo": "logo.png",
+        "FromSoulsLike": "FromSoulsLike",
+        "Email": "Email",
+        "Contrasenia": "Contraseña",
+        "Acceder": "Acceder",
+        "Terminos": "Al usar tu cuenta accedes a nuestros Términos y Poítica de Privacidad y confirmas que tienes más de 16 años.",
+        "OlvidoCont": "¿Has olvidado tu contraseña?",
+        "CrearCuenta": "Crear cuenta",
+        "AccederTittle": "Acceder"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
